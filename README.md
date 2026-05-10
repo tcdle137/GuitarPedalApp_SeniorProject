@@ -47,3 +47,12 @@ If everything works, when you run the program you should have a function Guitar 
 You may need to double check your Audio I/O setting by going to the top left, clicking "Options" then "Audio/MIDI Settings..."
     *** Under Audio Device type, Windows Audio (Exclusive Mode) or Windows Audio (Low Latency) are recommended.
         Audio interface options may be more ideal, depending on access to given hardware.
+
+
+
+Uninstall:
+  1. Delete the "GuitarPedalApp_SeniorProject" folder (with all the files in it).
+  2. Navigate to the Windows "Add or remove programs" in settings (or searchable by pressing the Windows key).
+  3. Search and uninstall the following:
+       CMake
+       Visual Studio (You may opt to keep this as it is just Microsoft's IDE for coding)
